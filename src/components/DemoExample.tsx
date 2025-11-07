@@ -15,7 +15,7 @@ const DemoExample: React.FC<DemoPanelProps> = () => {
 
   return (
     <Box sx={{maxWidth:"1000px", margin:"0 auto", padding:"20px 0"}}>
- <Grid item xs={12} md={6}>
+ <Grid size={{xs:12, md:6}}>
       <Paper
         elevation={8}
         sx={{

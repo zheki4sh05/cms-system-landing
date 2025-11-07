@@ -52,7 +52,7 @@ export const Hero: FC = () => {
       <Container maxWidth="lg" sx={{ position: 'relative', zIndex: 1 }}>
         <Grid container spacing={6} alignItems="center">
           {/* Левая колонка - TrustFlow */}
-          <Grid item xs={12} md={6}>
+          <Grid size={{xs:12, md:6}}>
             <Box>
               {/* Логотип/Название */}
               <Box sx={{ display: 'flex', alignItems: 'center', mb: 3 }}>
@@ -193,7 +193,7 @@ export const Hero: FC = () => {
 
               {/* Статистика */}
               <Grid container spacing={3} sx={{ mt: 2 }}>
-                <Grid item xs={4}>
+                <Grid size={{xs:4}}>
                   <Box>
                     <Typography variant="h3" sx={{ fontWeight: 700, mb: 0.5 }}>
                       99.9%
@@ -203,7 +203,7 @@ export const Hero: FC = () => {
                     </Typography>
                   </Box>
                 </Grid>
-                <Grid item xs={4}>
+                <Grid size={{xs:4}}>
                   <Box>
                     <Typography variant="h3" sx={{ fontWeight: 700, mb: 0.5 }}>
                       24/7
@@ -213,7 +213,7 @@ export const Hero: FC = () => {
                     </Typography>
                   </Box>
                 </Grid>
-                <Grid item xs={4}>
+                <Grid size={{xs:4}}>
                   <Box>
                     <Typography variant="h3" sx={{ fontWeight: 700, mb: 0.5 }}>
                       500+

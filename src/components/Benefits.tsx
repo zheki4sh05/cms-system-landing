@@ -26,7 +26,7 @@ export const Benefits: FC = () => {
     <Box sx={{ py: 12, bgcolor: 'background.paper' }}>
       <Container maxWidth="lg">
         <Grid container spacing={6} alignItems="center">
-          <Grid item xs={12} md={6}>
+          <Grid size={{xs:12, md:6}}>
             <Typography variant="h2" gutterBottom>
               Преимущества нашего решения
             </Typography>
@@ -55,7 +55,7 @@ export const Benefits: FC = () => {
             </List>
           </Grid>
 
-          <Grid item xs={12} md={6}>
+          <Grid size={{xs:12, md:6}}>
             <Paper
               elevation={4}
               sx={{
